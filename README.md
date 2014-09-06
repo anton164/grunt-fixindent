@@ -2,7 +2,7 @@
 
 A grunt task to change the indentation of files.
 
-[![NPM version](https://badge.fury.io/js/grunt-fixindent.png)](https://badge.fury.io/js/grunt-fixindent.png)
+[![Build Status](https://travis-ci.org/anton164/grunt-fixindent.svg?branch=master)](https://travis-ci.org/anton164/grunt-fixindent)[![NPM version](https://badge.fury.io/js/grunt-fixindent.png)](https://badge.fury.io/js/grunt-fixindent.png)
 
 ## Getting Started
 This plugin requires Grunt `~0.4.0`

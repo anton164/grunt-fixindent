@@ -26,9 +26,9 @@ module.exports = function(grunt) {
     // define one indent string
     var indent = '';
     if (options.style === 'space') {
-      indent = grunt.util._.repeat('\t', options.size);
-    } else if (options.style === 'tab') {
       indent = grunt.util._.repeat(' ', options.size);
+    } else if (options.style === 'tab') {
+      indent = grunt.util._.repeat('\t', options.size);
     }
 
     // process the files
