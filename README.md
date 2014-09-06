@@ -67,7 +67,7 @@ grunt.initConfig({
 ```
 
 #### Set indentation to 1 tab
-In this example the indent task will decrease the indent of all .css files in the css directory by one and save the modified files in the dist directory.
+In this example the fixindent task will set the indentation of all .css files in the src directory to 1 tab and save the modified files in the dist directory.
 
 ```js
 grunt.initConfig({
@@ -78,9 +78,8 @@ grunt.initConfig({
       ],
       dest: 'dist/',
       options: {
-        style: 'space',
-        size: 2,
-        change: -1
+        style: 'tab',
+        size: 1,
       }
     }
   }
@@ -88,4 +87,5 @@ grunt.initConfig({
 ```
 
 ## Release History
- * 2013-03-16   v0.1.0   Initial release.
+ * 2014-06-09   v0.1.1   Hotfix for initial release.
+ * 2014-05-09   v0.1.0   Initial release.
