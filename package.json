@@ -1,7 +1,7 @@
 {
   "name": "grunt-fixindent",
   "description": "Fix the indentation of files.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/anton164/grunt-fixindent",
   "author": {
     "name": "Anton Abilov",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stevenbenner/grunt-indent.git"
+    "url": "git://github.com/anton164/grunt-fixindent.git"
   },
   "bugs": {
-    "url": "https://github.com/stevenbenner/grunt-indent/issues"
+    "url": "https://github.com/anton164/grunt-fixindent/issues"
   },
   "licenses": [{
     "type": "MIT",
-    "url": "https://raw.github.com/stevenbenner/grunt-indent/master/LICENSE.txt"
+    "url": "https://raw.github.com/anton164/grunt-fixindent/master/LICENSE.txt"
   }],
   "main": "Gruntfile.js",
   "engines": {

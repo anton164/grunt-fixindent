@@ -87,5 +87,6 @@ grunt.initConfig({
 ```
 
 ## Release History
- * 2014-06-09   v0.1.1   Hotfix for initial release.
- * 2014-05-09   v0.1.0   Initial release.
+ * 2014-07-09    v0.1.2    Updated readme and package.json
+ * 2014-06-09    v0.1.1    Hotfix for initial release.
+ * 2014-05-09    v0.1.0    Initial release.
