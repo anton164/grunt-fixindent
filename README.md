@@ -1,4 +1,4 @@
-# grunt-indent
+# grunt-fixindent
 
 A grunt task to change the indentation of files.
 
@@ -50,7 +50,7 @@ In this example the fixindent task will set the indentation of all .js files in 
 
 ```js
 grunt.initConfig({
-  indent: {
+  fixindent: {
     scripts: {
       src: [
         'src/*.js'
@@ -71,7 +71,7 @@ In this example the fixindent task will set the indentation of all .css files in
 
 ```js
 grunt.initConfig({
-  indent: {
+  fixindent: {
     stylesheets: {
       src: [
         'css/*.css'
@@ -87,6 +87,7 @@ grunt.initConfig({
 ```
 
 ## Release History
- * 2014-07-09    v0.1.2    Updated readme and package.json
- * 2014-06-09    v0.1.1    Hotfix for initial release.
+ * 2014-22-09    v0.1.3    Replaced all instances of 'indent' to 'fixindent'    
+ * 2014-07-09    v0.1.2    Updated readme and package.json
+ * 2014-06-09    v0.1.1    Hotfix for initial release.
  * 2014-05-09    v0.1.0    Initial release.

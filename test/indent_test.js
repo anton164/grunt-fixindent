@@ -6,7 +6,7 @@ function getNormalizedFile(filePath) {
   return grunt.util.normalizelf(grunt.file.read(filePath));
 }
 
-exports.indent = {
+exports.fixindent = {
 
   fix4SpacesTo2Spaces: function(test) {
     var actualJs = getNormalizedFile('tmp/test.4spaces.js'),
